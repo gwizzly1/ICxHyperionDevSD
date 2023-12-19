@@ -1,0 +1,21 @@
+Questions:
+Suggest which generic software model will be most appropriate for the development of the following systems. Give reasons.
+
+1. A system to control anti- lock braking in a car
+    - Waterfall model - this ensures safety and security. This allows no distribution of sub optimal parts. 
+    - Anti-lock brakes are very important to have correct so they need to be carefull tested and guarenteed to be safe and correctly made before any testing of the who system takes place.
+2. a VR system to support software maintenance
+    - Incremental model - this allows lots of quick user feedback and improvement guidance, there's no risk of shipping too early in this case and it has the benefit of feedback.
+3. A university accounting system that replaces an existing system
+    - Reuse-orientated process - the old system will have some reusable code - the system will essentially be doing the same thing! cheaper, easier and faster.
+4. An interactive travel planning system that allows users to plan trips with the lowest envirnomental impact
+    - Incremental development - it's cheaper and unlikely to grow too complex or too big and the risks of it not being perfect are minimal so early versions are ok to be released. 
+
+Question: Why do you think incremental development is the most effective approach for developing business software systems?
+    - This is because the business can be agile and get quick feedback and changes made. The focus isn't solely on safety so they can try to improve quickly.
+
+Question: Look at the diagram showing the reuse-orientated software engineering process above. 
+    Why do you think it's necessary to have two seperate requirement engineering steps in this process?
+    - This is because the project needs to be scoped intiially with any requirmenets mapped out, then the current code needs to be analysed to see where it can be used 
+    and then the requirements might now have to be tweaked or changed to make the available code/tech re-usable in this project. 
+    It's very unlikely that any code will just slot into a totally new project so some alterations will need to be made.  

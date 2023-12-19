@@ -1,0 +1,33 @@
+1. Define each of the following terms:
+    a. Data - Data is the raw information you have stored
+    b. Field - a field is a group that hold varying attributes of the same type
+
+2. What is a DBMS and what are it's advantages?
+    DBMS stands for Database Management System. 
+    This allows you to interact with databases in an easy and user friendly way.
+    This is usually done so using a variety of programs to control access and manage structure.
+    Advantages: 
+        Better data sharing - as it can be restrictive/controlled it allows end-users more efficient access 
+        Data integration - better as more end-users are able to see the data/structure clearly (not only technical roles)
+        Better data consistancy - less places of truth - ie when there's a reliable and easily viewable source of information, much less likely to have multiple sources
+        Improved data access - very easy to search for what you need
+        Better decision making due to the easier access and speed of information movement
+        Increased end-user productivity - data allows faster and better decision making
+
+
+3. What's the differemce between data and information?
+    Data is just the raw core values, once it's manipulated into a useful format it becomes information (and as such decisions can be based off it)
+
+4. What is metadata?
+    metadata is data that provides information about more data. 
+    For example it's a reference helping to sort and also identify attributes.
+    eg.  date created, date accessed
+
+5. Given the file in the document, answer the following questions:
+    e. How many records does the file contain?
+        4
+    f. How many fields are there per record?
+        5
+
+references:
+HyperionDev.2023. 12-002-1 Databases. Retrieved November 22, 2023.

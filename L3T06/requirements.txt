@@ -1,0 +1,23 @@
+'''
+Answers:
+
+1. This is not an adequate statement of requirements. Firstly it included nothing of the standard requirement''s document, for example, preface, introduction, user requirements, etc etc. 
+    It just explains the program in an over simplified and incomplete way. There is no requirement regarding putting in their initial station, viewing prices and comparing times or including any times or classes. 
+    The statement makes it sound like the user just puts the destination in and enters their credit card details. 
+    It doesnt mention either non-functional requirements (or actual functional requirements). 
+
+2. Non-functional requirements:
+    - Security: 
+        Login with username and password (safe storage)
+        Safe storage of credit card information (/no storage) 
+        Adequate payment processing through trusted 3rd party
+    - Usability:
+        Help information for users if necessary
+        Drop down menu for stations as the user is typing 
+        Errors in less than 1% of cases)
+    - Performance:
+        Quick runtime needed (<0.05s) 
+        Price updates being handled (checked every 30s) and communicates notifications 
+    - Reliability:
+        The website must not crash or have a runtime error in more than 99% of cases
+   

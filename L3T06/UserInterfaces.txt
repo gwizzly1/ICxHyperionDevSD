@@ -1,0 +1,22 @@
+1. Look at the following webpage: http://www.pnwx.com write good and bad points on the UI.
+
+    Pros: Has all the information you need, draws your attention
+    Cons: Sense overload - too many colours and flashing lights
+        Too much information 
+        No explanation of what company does (communication)
+        No dropdown or menu 
+        Very basic input controls
+        Not simple in colours but too simple in everything email_address
+        The colours, textures and typography is random 
+        
+
+2. Look at the following webpage: https://www.ucook.co.za and write pros and cons of UI.
+    Pros:
+        Immediately easy to see product
+        good colours - natural 
+        Use common UI features - ie basket, menu, help button 
+        Easy to see where to add location 
+        Very easy to use 
+
+    Cons: The webpage doesn't fit on 1/2 screen properly - font too big so not easy to subject_line
+        Maybe could have been a little more obvious about login

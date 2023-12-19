@@ -1,0 +1,75 @@
+/*
+-------------------------------------------
+Using SQL to manipulate a database
+The link suggested for online SQL did not work for me so I used:
+https://sqliteonline.com/
+
+-------------------------------------------
+*/
+
+*/ To create a table with the following fields:
+
+CREATE TABLE Student (
+	STU_NUM char(6),
+    STU_SNAME varchar(15),
+    STU_FNAME varchar(15),
+    STU_INITIAL char(1),
+    STU_STARTDATE date,
+    COURSE_CODE char(3),
+    PROJ_NUM int(2),
+    PRIMARY KEY (STU_NUM)
+    );
+
+INSERT INTO Student
+    VALUES (
+     01, 'Snow', 'John', 'E','05-Apr-14', 201, 6), 
+    (02, 'Stark', 'Arya', 'C', '12-Jul-17', 305, 11),
+    (03, 'Lannister', 'Jamie', 'C', '05-Sep-12', 101, 2),
+    (04, 'Lannister', 'Cercei', 'J', '05-Sep-12', 101, 2),
+    (05, 'Greyjoy', 'Theon', 'I', '09-Dec-15', 402, 14),
+    (06, 'Tyrell', 'Margaery', 'Y', '12-Jul-17', 305, 10),
+    (07, 'Baratheon', 'Tommen', 'R','13-Jun-19' , 201, 5)
+    ;
+
+/*
+Select *
+,FORMAT('05-Apr-14','dd-%b-yyyy') as date_formated
+from Student;
+
+*/ This prints all those rows with a course_code of 305 
+SELECT 
+    * 
+from Student
+where COURSE_CODE = 305;
+
+*/ This updates studentnumber 07 to have a course code of 304
+UPDATE Student
+SET COURSE_CODE = 304
+WHERE STU_NUM = 07;
+/*
+
+*/ This deletes Jamie Lannister row from the table
+DELETE FROM Student
+WHERE STU_SNAME = 'Lannister'
+AND STU_FNAME = 'Jamie'
+AND STU_STARTDATE = '05-Sep-12'
+AND COURSE_CODE = 101
+AND PROJ_NUM = 2;
+/*
+
+*/ This updates project_num to 14 for students who started before 01/01/16 and have a course code of at least 201
+UPDATE Student
+SET PROJ_NUM = 14
+WHERE COURSE_CODE >= 201
+*/I would usually use RIGHT or DATE filter here with SQL but there are no online working interpreters for me to test (all SQLite) so I have to use substr instead /*
+AND substr(stu_startdate, -2) < '16'
+; 
+
+*/
+select * from Student
+ORDER BY STU_NUM asc;
+
+*/ This will delete the data inside Student
+--DELETE from Student;
+*/ This will delete the whole table of Student
+--DROP TABLE Student;

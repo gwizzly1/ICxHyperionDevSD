@@ -1,0 +1,25 @@
+Questions:
+
+1. How does the waterfall methodology differ from agile?
+    - Waterfall methodology is all about sticking to the plan, finishing 1 step before moving on to the next.
+    - Agile is testing at the same time, iterating quickly and going back and forth on testing and implementation.
+
+2. Can you think of a situation in which one or more of the 4 values in the "Agile Manifesto" could get a software team in trouble
+    - Individuals and tools over processes and tools - in a larger company these processes can be vital to make sure everyone understands what's going on
+    - Working software over comprehensive documentation - same as above, if employees don't write comprehensive documentation and then leave the company, the newcommer will have difficulty understanding what's been done.
+
+3. Describe the Agile method in your own words:
+    - Being agile is about ensuring the product is moving forward in a quick and innovative way. It means any issues that arise are quickly handled and improvements executed. 
+    For companies like start-ups for example, this is vital. It cuts down the waiting time in traditional approaches.
+    The testing created before the code keeps the focus
+    The pairs programming ensures good code is created and helps innovation
+    The testing as you go along and cards ensure everything is broken down to an extent to make fixing the problems quicker
+    The downside is the lack of documentation or formal plan which are important in more established companies
+
+4. Why do you think requirements change so much?
+    - As you delve into a project it's very difficult to initially scope out any potential issues adequately. 
+    Often large issues arise that you need to work-around, this means knock on effects of requirement changes.
+    Also, often clients have an idea of what they want but there is a mismatch on their understanding on what they want and their explanation so the further into the project you get the more their requirements change  
+
+5. Explain why first testing project features helps the programmer to deveop a better understanding of the system requirements.
+    - This is a way to enable the programmers to see what will work or what won't and what's actually needed, this allows them to make suggestions to the clients that they know will work so the client can have a better understanding of what's possible technically.

@@ -1,0 +1,36 @@
+This is an exercise to write pseudocode. 
+
+Question 1
+---------------
+1. Create empty list
+2. Request user to input a +ve number
+3. While number is not equal to 0, add number to list in 1 and repeat point 2.
+4. If input number = 0, print max of the list
+
+Question 2
+---------------
+1. Request user to input their first name
+2. Save the name as variable
+3. Print the variable containing the name + 'Hello World' string
+
+Question 3
+---------------
+1. Read number 
+2. Add all integers in the number and save as variable
+3. Count number of integers in the number and save
+4. Calculate average = addititon of integers/ count of integers
+5. Print average
+
+Question 4
+---------------
+1. Read grocery list
+2. Remove the items that have already been bought
+3. Alphebetize
+4. Print
+
+Question 5
+---------------
+1. Read and save values x & y
+2. Calculate x+y and save as addition and then print
+3. Calculate addition/2 and then print
+4. Calculate x * y and print

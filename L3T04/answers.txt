@@ -1,0 +1,26 @@
+Questions:
+
+1. Briefly describe possible quality standards that might be used for these real world products:
+    a. Mobile games app - Usability, Reliability, Learnability, Speed to run 
+    b. Banking Application - Safety, Security, Reliability, Robustness, Learnability
+    c. Database for a medical organisation - Robustness, Complexity, Usability, Reliability
+
+2. Explain why a high quality software process should lead to a high-quality software products. 
+    Discuss possible problems with this system of quality management 
+    - High quality software processes should, in essence prevent rushed, sub-standard code due to a system 
+    of robust testing and code reviews and have multiple people checking over code and planning. 
+    You'd assume that with increased processes, equals increased stability and robustness in code.
+    The problems with this system arises when in a smaller company with less developers or start-ups in need of agility.
+    The testing, planning, teams of QM all takes money and a lot more time. IT's mostly useful when a company is focussed on stability rather than quick growth. 
+
+3. Explain why program inspectors are an effective technique for discovering errors in a program. 
+    What types of errors are unlikely to be discovered through inspections?
+    - Often programmers can become 'code blind', which means you read what you think it should say rather than actually reading the code. 
+    Often it's really useful to get a fresh pair of eyes on code, that haven't seen the code before. 
+    As they know nothing about the code they can validate the ease of code, understandability of documentation and code as well as errors.
+    Logical errors are unlikely to be discovered through inspections - they are just looking at the running of the code and with these errors the code runs and compiles ok.
+
+
+4. Why is it dificult to validate the relatinships between the internal product attributes and the external attributes?
+    - This is because they are subjective. External Quality Attributes can have multiple internal attributes to measure and the weight of these will be subjective too. 
+    - They are often highly qualitative so creating proxy quantitative measurements is difficult and can be unreliable.

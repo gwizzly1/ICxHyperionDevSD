@@ -1,0 +1,9 @@
+Questions:
+1. Layered Architecture - online banking system - you want to be able to upgrade systems without all systems going down or changing.
+2. Repository Architecture: Dropbox - reliant on the internet and multiple people have access to the same thing.
+3. Client-server architecture: SQL Server - Multiple users can get access to the server 
+4. Pipe and filter architecture: Graphics rendering pipeline (Source: https://www3.ntu.edu.sg/home/ehchua/programming/opengl/CG_BasicsTheory.html)
+
+5. 2 examples of usecases that use multiple architectures:
+    1 - Google maps - pipe and filter and Client server 
+    2 - Dropbox - Layered and Client_server
