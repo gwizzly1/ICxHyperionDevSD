@@ -11,7 +11,7 @@ Plan:
 with open('DOB.txt', '+r') as f:
     contents = f.read()
 
-    line_list = contents.splitlines()
+    line_list = contents.splitlines() # This splits the string into a list, seperating at the spaces
 
 # Create empty lists called name_list and dob_list
 name_list = []
