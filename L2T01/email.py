@@ -32,6 +32,9 @@ class Email:
         self.email_content = email_content
         
     def mark_as_read(self):
+        '''
+        To change the email read flag to True
+        '''
         self.has_been_read = True
         print("This email flag has now been changed to read")
 
@@ -47,6 +50,9 @@ class Inbox:
         self.email_list = []
 
     def populate_inbox(self):
+        '''
+        To add 3 emails to the inbox using the Email class template 
+        '''
         email_1 = Email('a@b.com', 'email 1', 'Hello this is email 1')
         email_2 = Email('b@c.com', 'email 2', 'Hello this is email 2')
         email_3 = Email('c@d.com', 'email 3', 'Hello this is email 3')
@@ -56,6 +62,9 @@ class Inbox:
         self.email_list.append(email_3)
 
     def list_emails(self):
+        '''
+        To list all the emails available. I have started at 1 as usually you wouldn't expect an email list to start at 0.
+        '''
         for i, email in enumerate(self.email_list, start=1):
             print(i, email.subject_line)
 
@@ -64,6 +73,8 @@ class Inbox:
             raise EmailChoiceError(f'Invalid index: {i} - note that we start at 1')
         try:
             email = self.email_list[i - 1] # As above this enables the index to match the email number, instead of email 1 having an index of 0 
+            print(i, email.email_address)
+            print(i, email.subject_line)
             print(i, email.email_content)
             email.mark_as_read()
         except IndexError:
@@ -92,7 +103,7 @@ Enter selection:
         print(f'Invalid choice - must be an integer: {user_choice}')
         continue
        
-    if user_choice == 1:
+    if int_user_choice == 1:
         print("Select email you wish to read:")
         inbox.list_emails()
 
@@ -109,15 +120,15 @@ Enter selection:
         else:
             raise TooManyAttempts(f"Failed to choose an email in {n_attempts} attemps")
         
-    elif user_choice == 2:
+    elif int_user_choice == 2:
         print()
         for index, e in enumerate(inbox.email_list, start=1):
             if not e.has_been_read:
-                inbox.read_email(index)
+                print(index, e.subject_line)
     
-    elif user_choice == 3:
+    elif int_user_choice == 3:
         exit()
     
     else:
-        print("Oops - incorrect input.")
+        print(f"Oh dear, incorrect input: {user_choice!r}")
         
